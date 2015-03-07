@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.0.rc2'
+gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
 gem 'pg'
 gem 'annotate'
@@ -40,5 +40,3 @@ group :development do
   gem 'spring'
   gem 'thin'
 end
-
-gem 'counter_culture', '>= 0.1.7'
